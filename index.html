@@ -10,27 +10,41 @@
 <body>
 
     <!--Creación barra de navegación-->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">El Aniquilador del Hambre</a>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container text-white">
+            <a class="navbar-brand text-white" href="#" >
+                <i class="fas fa-hamburger me-2 "></i>El Aniquilador del Hambre
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav-item ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#menu">Menú</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#menu" role="checkbox" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menú
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#sanwiches">Sanwiches</a></li>
+                            <li><a class="dropdown-item" href="#platosprincipales">Platos Principales</a></li>
+                            <li><a class="dropdown-item" href="#bebestibles">Bebestibles</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="#historia">Historia</a></li>
                     <li class="nav-item"><a class="nav-link" href="#sucursales">Sucursales</a></li>
                     <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
-
                 </ul>
-
             </div>
-
         </div>
-
-
     </nav>
+    <!--Creación del header-->
+    <header class="hero-section">
+        <div class="container text-center text-white">
+            <h1 class="display-3 fw-bold">El Aniquilador del Hambre</h1>
+            <p class="lead">50 años de una tradición culinaria</p>
+            <a href="#menu" class="btn btn-warning btn-lg mt-3">Ver Menú</a>
+        </div>
+    </header>
 
 
 
