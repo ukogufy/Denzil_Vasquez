@@ -4,7 +4,8 @@ body{
 
 /*Cambiar color de fondo barra de navegación*/
 .navbar{
-    background-color: rgb(47, 144, 9) !important;
+    background-color: #ff5500 !important;
+   
 }
 
 /*centrar barra de navegación*/
@@ -22,5 +23,31 @@ body{
 
 /*personalizar texto barra de navegación*/
 .nav-link{
-    color: blue;
+    color: rgb(255, 255, 255);
 }
+
+
+/* caousel tamaños*/
+.carousel-inner{
+    background-color: #adadad;
+    border-radius: 10px;
+    height: 400px;
+    border: 2px solid #000000;  
+    
+    
+}
+
+/*Tanaño de imagenes*/
+.carousel-item img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
