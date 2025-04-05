@@ -1,3 +1,26 @@
 body{
     background-color: rgba(255, 0, 0, 0.65);
 }
+
+/*Cambiar color de fondo barra de navegación*/
+.navbar{
+    background-color: rgb(47, 144, 9) !important;
+}
+
+/*centrar barra de navegación*/
+.navbar-nav{
+        justify-content: center;
+        width: 100%;
+        
+    
+}
+
+/*centrar texto barra de navegación*/
+.nav-item{
+    text-align: center;
+}
+
+/*personalizar texto barra de navegación*/
+.nav-link{
+    color: blue;
+}
