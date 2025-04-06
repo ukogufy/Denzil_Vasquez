@@ -13,10 +13,10 @@
     <header class="container text-center">
         <img src="imagenes/Logo/logo-transparent.png" alt="Logo El Aniquilador del Hambre" style="width: 100%;">
     </header>
-<hr>
+
     <!--Creación barra de navegación-->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container" >
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid" >
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-center">
                     <li class="nav-item">
@@ -37,10 +37,10 @@
             </div>
         </div>
     </nav>
-<hr> 
+
 
     <!--Banner principal-->
-    <section id="menu" class="py-5">
+    <section id="menu" class="py-5 m-5">
         <div class="container">
             <h2>Nuestro Menú</h2>
             <div id="carouselmenu" class="carousel slide" data-bs-ride="carousel">
@@ -68,8 +68,10 @@
     </section>
     
     <!--Carta sección Sandwiches -->
-    <section id="sandwiches" class="py-5">    
-        <h1>Sandwiches</a></h1>
+    <section id="sandwiches" class="py-5 m-5">    
+        <div class="container">
+            <h1>Sandwiches</a></h1>
+        </div>
         <!--Creaciónde menu con card-->
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
@@ -120,8 +122,11 @@
     </section>
 
     <!--Carta sección Platos princiaples-->
-    <section id="platosprincipal" class="py-5">    
-        <h1>Platos principales</a></h1>
+    <section id="platosprincipal" class="py-5 m-5">    
+        <div class="container">
+            <h1>Platos principales</a></h1>
+        </div>
+        
         <!--Creaciónde menu con card-->
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
@@ -172,8 +177,10 @@
     </section>
 
     <!--Sección Bebestibles-->
-    <section id="bebestibles" class="py-5">    
-        <h1>Bebestibles</a></h1>
+    <section id="bebestibles" class="py-5 m-5">    
+        <div class="container">
+            <h1>Bebestibles</a></h1>
+        </div>
         <!--Creaciónde menu con card-->
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
@@ -225,22 +232,43 @@
     
 
     <!--Historia-->
-    <section id="historia" class="py-5">
-        <h1><b>Historia</b></h1>
+    <section id="historia" class="py-5 m-5">
+        <div class="container">
+            <h1><b>Historia</b></h1>
+        </div>
 
     </section>
 
 
     <!--Sucursales-->
-    <section id="sucursal" class="py-5">
-        <h1><b>Sucursales</b></h1>
-
+    <section id="sucursal" class="py-5 m-5">
+        <div class="container">
+            <h1><b>Sucursales</b></h1>
+        </div>
     </section>
 
     <!--Contacto-->
-    <section id="contacto" class="py-5">
-        <h1><b>Contacto</b></h1>
+    <section id="contacto" class="py-5 m-5">
+        <div class="container">
+            <h1><b>Contactanos</b></h1>
+            <!--Creación formulario-->
+            <form id="contactform" class="needs-validation" novalidate>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre *</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email *</label>
+                    <input type="enail" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje *</label>
+                        <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger">Enviar</button>
 
+            </form>
+        </div>
     </section>
     <!--Boton a inicio-->
     <div class="d-grid">

@@ -1,5 +1,6 @@
 body{
-    background-color: rgba(255, 0, 0, 0.65);
+    font-family: Arial, sans-serif;
+    background-color: rgba(207, 173, 101, 0.865);
 }
 
 /*Cambiar color de fondo barra de navegación*/
@@ -49,5 +50,16 @@ body{
     align-items: center;
     text-align: center;
     margin: auto;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 50vh;
+    }
+}
+
+/* Cards sombra al seleccionar una tarjeta*/
+.card:hover{
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.5)
 }
 
