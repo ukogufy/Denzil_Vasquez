@@ -6,6 +6,7 @@ body{
 /*Cambiar color de fondo barra de navegación*/
 .navbar{
     background-color: #ff5500 !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
    
 }
 
@@ -13,6 +14,7 @@ body{
 .navbar-nav{
         justify-content: center;
         width: 100%;
+        text-align: center;
         
     
 }
@@ -63,3 +65,17 @@ body{
     box-shadow: 0 20px 10px rgba(0, 0, 0, 0.5)
 }
 
+/**/
+
+
+.navbar-brand img {
+    transition: transform 0.3s;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.dropdown-item{
+    text-align: center;
+}
