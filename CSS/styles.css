@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: rgba(207, 173, 101, 0.865);
+    background-color: rgba(253, 230, 180, 0.865);
 }
 
 /*Cambiar color de fondo barra de navegación*/
@@ -15,7 +15,7 @@ body{
         justify-content: right;
         width: 100%;
         text-align: center;
-        font-size: 150%;
+        font-size: 120%;
         
     
 }
@@ -35,7 +35,7 @@ body{
 .carousel-inner{
     background-color: #adadad;
     border-radius: 10px;
-    height: 400px;
+    height: auto;
     border: 2px solid #000000;  
     
     
@@ -66,20 +66,6 @@ body{
     box-shadow: 0 20px 10px rgba(0, 0, 0, 0.5)
 }
 
-/**/
-
-
-.navbar-brand img {
-    transition: transform 0.3s;
-}
-
-.navbar-brand img:hover {
-    transform: scale(1.1);
-}
-
-.dropdown-item{
-    text-align: center;
-}
 
 /*------ imagen portada ancho completo*/
 .full-viewport-header {
@@ -105,4 +91,8 @@ body{
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
+}
+
+.card{
+    text-align: justify;
 }
